@@ -23,7 +23,7 @@ public class message {
     public String MessageMain(){
         int i=Integer.valueOf(nums);
         String str="";
-        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI4G2pJWTtgZdy2CbGnZj5", "rQ1UbT094HNUbFXS36fPDTHlQXZAkC");
+        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "", "");
         IAcsClient client = new DefaultAcsClient(profile);
         CommonRequest request = new CommonRequest();
         request.setMethod(MethodType.POST);
