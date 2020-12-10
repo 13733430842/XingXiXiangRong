@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">星曦向荣精简版</string>
+    <string name="password">305666</string>
+    <string name="digits" formatted="false">.:",;?='/!- _()$@*%#~^+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+    <string name="digits1">- .</string>
+    <string name="digits2">0 123456789</string>
+
+    <string name="chat_btn0">注销退出</string>
+    <string name="chat_btn1">韩剧网</string>
+    <string name="chat_btn2">百度</string>
+    <string name="chat_btn3">Free音乐</string>
+    <string name="chat_btn4">WX公众号音乐</string>
+    <string name="chat_btn5">116看</string>
+    <string name="chat_btn6">影视全网集</string>
+    <string name="chat_btn7">爱奇艺</string>
+    <string name="chat_btn8">清除缓存</string>
+    <string name="btn9">1</string>
+    <string name="btn10">史莱姆</string>
+    <string name="btn11">茶杯狐</string>
+    <string name="btn12">坑搜网</string>
+    <string name="btn13">武昌工学院</string>
+    <string name="btn14">哔哩哔哩</string>
+    <string name="btn15">2</string>
+    <string name="btn16">蓝调网站</string>
+    <string name="btn17">斗鱼直播</string>
+    <string name="btn18">虎牙直播</string>
+    <string name="btn19">央视直播</string>
+    <string name="btn20">MKOnlinePlayer音乐</string>
+    <string name="btn21">搜书网</string>
+    <string name="btn22">今日头条</string>
+    <string name="btn23">企鹅电竞</string>
+    <string name="btn24">菜鸟教程</string>
+    <string name="btn25">w3school在线教程</string>
+    <string name="btn26">清除搜索历史记录</string>
+    <string name="btn27">加密解密</string>
+
+    <string name="uri1">http://www.hjsfz.cn/</string>
+    <string name="uri2">https://m.baidu.com</string>
+    <string name="uri3">http://y.webzcz.cn/</string>
+    <string name="uri4">https://mp.weixin.qq.com/s/eqz9eqVO1wziVffFWN2JEw</string>
+    <string name="uri5">https://vip.116kan.com/vip/</string>
+    <string name="uri6">http://www.qji.me/</string>
+    <string name="uri7">https://m.iqiyi.com/</string>
+    <string name="uri19">https://tv.cctv.com/live/m/index.shtml</string>
+    <string name="uri9">https://www.caoni12.com/</string>
+    <string name="uri10">http://www.slimego.cn/</string>
+    <string name="uri11">https://www.cupfox.com/</string>
+    <string name="uri12">http://www.kengso.com/</string>
+    <string name="uri13">http://www.wuit.cn/</string>
+    <string name="uri14">https://m.bilibili.com/</string>
+    <string name="uri15">https://dj44.pw/</string>
+    <string name="uri16">http://www.lcoc.top/</string>
+    <string name="uri17">https://www.douyu.com/</string>
+    <string name="uri18">https://www.huya.com/</string>
+    <string name="uri20">http://lcoc.top/666/</string>
+    <string name="uri21">https://m.soshuwu.com/</string>
+    <string name="uri22">https://m.toutiao.com/?W2atIF=1</string>
+    <string name="uri23">https://cdn.egame.qq.com/pgg-play/module/livelist.html</string>
+    <string name="uri24">https://www.runoob.com/</string>
+    <string name="uri25">https://www.w3school.com.cn/index.html</string>
+
+</resources>
+

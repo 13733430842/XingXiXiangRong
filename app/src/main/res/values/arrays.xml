@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="adBlockDiv"><!--div的id-->
+        <item>barrage</item>
+        <item>ad_right</item>
+        <item>imgad</item>
+        <item>HMcoupletDivleft</item>
+        <item>HMcoupletDivright</item>
+        <item>note</item>
+        <item>HMRichBox</item>
+
+    </string-array>
+    <string-array name="adUrls"><!---->
+        <item>https://img.alicdn.com/</item>
+        <item>https://img.alicdn.com/imgextra/i2/3361094544/TB2ytm8XLAPyuJjy0FcXXbCzpXa_!!3361094544.gif</item>
+        <item>https://img.alicdn.com/imgextra/i3/3361094544/TB2TE03XFkkyKJjSszfXXbdiFXa_!!3361094544.gif</item>
+        <item>https://img.alicdn.com/imgextra/i4/3361094544/TB2YMqWXKIPyuJjSspcXXXiApXa_!!3361094544.gif</item>
+        <item>http://1135.tyhtqc.com/?id=1135</item>
+        <item>https://share.jsrisun.com/</item>
+        <!--<item>https://pic.ggszdw.cn/newimg.html?u=2020/09/27022058614|2020/09/27021158862&1235</item>-->
+        <!--<item>https://pic.rliolmx.cn/newimg.html?u=2020/09/27020333574|2020/09/27014046358&1235</item>-->
+
+
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#a6a7ac</color>
+    <color name="colorAccent">#3d3df2</color>
+    <color name="white">#ffffff</color>
+    <color name="qianlan">#8bc2f9</color>
+    <color name="lianglan">#4ae8e2</color>
+    <color name="qiamlv">#4ae89b</color>
+    <color name="huanglv">#b5e84a</color>
+    <color name="qianhuang">#f3f381</color>
+    <color name="huangcheng">#f29a45</color>
+    <color name="pink">	#FFB5C5</color>
+    <color name="purple">#9B30FF</color>
+</resources>
