@@ -29,11 +29,11 @@ public class Resuilt {
 		for (int i = 0; i < strArrayList().size(); i++) {
 			int a=Integer.valueOf(strArrayList().get(i));
 			if (n==1) {
-				integers.add(a-((i+2)*(i+1)));		//解密1
+				integers.add(a-((i+(2*i))*(i+(2*i+1))));		//解密1
 			}else if (n==2) {
-				integers.add(a-((i+strArrayList().size())*(i+1)));	//解密2
+				integers.add(a-(((i)+strArrayList().size())*(i+1)));	//解密2
 			}else if (n==3) {
-				integers.add(a-((strArrayList().size()-i)*(i+1)));	//解密2.1
+				integers.add(a-((strArrayList().size()-(i+1))*(i+1)));	//解密2.1
 			}
 		}
 		for (int j = 0; j < integers.size(); j++) {

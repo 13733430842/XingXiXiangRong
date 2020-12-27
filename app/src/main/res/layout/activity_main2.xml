@@ -10,6 +10,14 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.zhangheng.xingxixiangrong.Main2Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
     <LinearLayout
         android:id="@+id/linear1"
         android:layout_width="match_parent"
@@ -134,5 +142,52 @@
             android:digits="@string/digits2"
             android:hint="请输入密文："/>
     </LinearLayout>
-
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="随机秘钥密码系统"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="50dp"
+                />
+            <EditText
+                android:id="@+id/edit3_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入明文(任意字符)："
+                android:layout_marginBottom="25dp"/>
+            <Button
+                android:id="@+id/btn3_t_p"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="加密(输入明文生成秘钥和密文)"
+                android:layout_marginBottom="25dp"/>
+            <EditText
+                android:id="@+id/edit3_miyao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入秘钥："
+                android:digits="@string/digits2"
+                android:layout_marginBottom="25dp"/>
+            <Button
+                android:id="@+id/btn3_p_t"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="解密(输入密文和秘钥生成明文)"
+                android:layout_marginBottom="25dp"/>
+            <EditText
+                android:id="@+id/edit3_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入密文："
+                android:layout_marginBottom="25dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

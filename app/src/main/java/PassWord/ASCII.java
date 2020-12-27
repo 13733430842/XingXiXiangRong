@@ -26,11 +26,11 @@ public String getresuilt(int n){
 	String str="";
 	for (int i = 0; i <integers().size(); i++) {
 		if (n==1) {
-			str+=String.valueOf(integers().get(i)+((i+2)*(i+1)))+" ";	//加密1 x+((i+1)*(i+2))
+			str+=String.valueOf(integers().get(i)+((i+(2*i))*(i+(2*i+1))))+" ";	//加密1
 		}else if (n==2) {
-			str+=String.valueOf(integers().get(i)+((i+integers().size())*(i+1)))+" ";		//加密2
+			str+=String.valueOf(integers().get(i)+(((i)+integers().size())*(i+1)))+" ";		//加密2
 		}else if (n==3) {
-			str+=String.valueOf(integers().get(i)+((integers().size()-i)*(i+1)))+" ";		//加密2.1
+			str+=String.valueOf(integers().get(i)+((integers().size()-(i+1))*(i+1)))+" ";		//加密2.1
 		}
 
 	}
