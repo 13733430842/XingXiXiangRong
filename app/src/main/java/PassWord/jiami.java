@@ -3,7 +3,7 @@ package PassWord;
 import java.util.ArrayList;
 
 /**
- * �����Կ�������
+ * 随机秘钥密码加密
  */
 public class jiami {
     private String miyao,mingwen,miwen;
@@ -13,7 +13,7 @@ public class jiami {
         this.mingwen = mingwen;
         setMiyao();
     }
-    public String getMiyao() {//����������ܺ���Կ
+    public String getMiyao() {//返回随机加密后秘钥
         String string="";
         String in="";
         if (miyao.length()!=0){
@@ -23,19 +23,19 @@ public class jiami {
         }
         return string;
     }
-    private void setMiyao() {//��ȡ�������Կ
+    private void setMiyao() {//获取随机码秘钥
         math math=new math(mingwen.length());
         miyao = math.radom();
     }
 
-    private ArrayList<Character> characters_mingwen(){//�������ַ���ת��Ϊ�ַ�����
+    private ArrayList<Character> characters_mingwen(){//将明文字符串转换为字符集合
         ArrayList<Character> characters=new ArrayList<Character>();
         for (int i = 0; i < mingwen.length(); i++) {
             characters.add(mingwen.charAt(i));
         }
         return characters;
     }
-    private ArrayList<Integer> integers_miyao(){//����Կת��Ϊ(ASCII�뼯��)��������
+    private ArrayList<Integer> integers_miyao(){//将秘钥转换为(ASCII码集合)单个数字
         ArrayList<Integer> integers=new ArrayList<Integer>();
         for (int i
              = 0; i < miyao.length(); i++) {
@@ -46,7 +46,7 @@ public class jiami {
         i_miyao=integers;
         return integers;
     }
-    private ArrayList<Integer> integers_mingwen(){//���ַ�����ת��ΪASCII�뼯��
+    private ArrayList<Integer> integers_mingwen(){//将字符集合转换为ASCII码集合
 
         ArrayList<Integer> integers=new ArrayList<Integer>();
         for (int i = 0; i < characters_mingwen().size(); i++) {
@@ -54,7 +54,7 @@ public class jiami {
         }
         return integers;
     }
-    private ArrayList<Integer> integers_miwen(){//��������ASCII�뼯�ϣ��ͣ���ԿASCII�뼯�ϣ���ϳɣ�����ASCII�뼯�ϣ�
+    private ArrayList<Integer> integers_miwen(){//将（明文ASCII码集合）和（秘钥ASCII码集合）组合成（密文ASCII码集合）
         ArrayList<Integer> integers=new ArrayList<Integer>();
         for (int i=0;i<integers_mingwen().size();i++){
 
@@ -63,7 +63,7 @@ public class jiami {
         }
         return integers;
     }
-    private ArrayList<Character> characters_miwen() {//������ASCII�뼯��ת��Ϊ�ַ�����
+    private ArrayList<Character> characters_miwen() {//将密文ASCII码集合转换为字符集合
         ArrayList<Character> characters = new ArrayList<Character>();
         for (int i = 0; i < integers_miwen().size(); i++) {
             int b = integers_miwen().get(i);
