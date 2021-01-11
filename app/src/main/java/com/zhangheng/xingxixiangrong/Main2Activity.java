@@ -23,6 +23,8 @@ public class Main2Activity extends AppCompatActivity {
     private RadioGroup radioGroup;
     private SharedPreferences sharedPreferences;
     private int n;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,7 +61,7 @@ public class Main2Activity extends AppCompatActivity {
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
-                et1_1.setText(null);
+                et2_1.setText(null);
                 et2_2.setText(null);
                 switch (checkedId){
                     case R.id.r_1:
@@ -91,7 +93,6 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Encryption encryption=new Encryption();
-
                 String text=et1_1.getText().toString().trim();
                 if (text.length()>0){
                     encryption.setpwd(text);
@@ -124,14 +125,14 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 ASCII ascii=new ASCII();
-                String text=et1_1.getText().toString().trim();
+                String text=et2_1.getText().toString().trim();
                 if (text.length()>0){
                     ascii.setpwd(text);
                     et2_2.setText(ascii.getresuilt(n));
                     et2_2.setSelection(et2_2.getText().length());
                 }else {
                     Toast.makeText(Main2Activity.this,"内容不能为空",Toast.LENGTH_SHORT).show();
-                    et1_1.setText("");
+                    et2_1.setText("");
                     et2_2.setText("");
                 }
             }
@@ -143,11 +144,11 @@ public class Main2Activity extends AppCompatActivity {
                 String text=et2_2.getText().toString().trim();
                 if (text.length()>0){
                     resuilt.setpwd(text);
-                    et1_1.setText(resuilt.getresuilt());
-                    et1_1.setSelection(et1_1.getText().length());
+                    et2_1.setText(resuilt.getresuilt());
+                    et2_1.setSelection(et1_1.getText().length());
                 }else {
                     Toast.makeText(Main2Activity.this,"内容不能为空",Toast.LENGTH_SHORT).show();
-                    et1_1.setText("");
+                    et2_1.setText("");
                     et2_2.setText("");
                 }
             }
