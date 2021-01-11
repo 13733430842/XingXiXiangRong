@@ -105,6 +105,7 @@ public class Main2Activity extends AppCompatActivity {
                 }
             }
         });
+
         btn1_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -121,6 +122,7 @@ public class Main2Activity extends AppCompatActivity {
                 }
             }
         });
+
         btn2_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -137,6 +139,7 @@ public class Main2Activity extends AppCompatActivity {
                 }
             }
         });
+
         btn2_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -153,6 +156,7 @@ public class Main2Activity extends AppCompatActivity {
                 }
             }
         });
+
         btn3_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -170,6 +174,7 @@ public class Main2Activity extends AppCompatActivity {
                 }
             }
         });
+
         btn3_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
